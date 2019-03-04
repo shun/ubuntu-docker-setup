@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt remove --purge docker docker-engine docker.io containerd runc
+apt remove docker docker-engine docker.io containerd runc
 apt update
 apt install -y \
     apt-transport-https \
